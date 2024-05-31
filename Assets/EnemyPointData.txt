@@ -1,0 +1,2 @@
+EnemyType1,10
+EnemyType2,15
