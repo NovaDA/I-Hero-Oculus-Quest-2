@@ -147,6 +147,7 @@
     <Compile Include="Assets\Shooter\Scripts\Gun\Projectiles.cs" />
     <Compile Include="Assets\Shooter\Scripts\CharacterControllerScript.cs" />
     <Compile Include="Assets\Shooter\Scripts\Waypoint System\WaypointSystem.cs" />
+    <Compile Include="Assets\Shooter\Scripts\Waypoint System\BezierCurve.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
