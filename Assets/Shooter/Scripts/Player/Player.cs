@@ -42,7 +42,7 @@ public class Player : LivingEntity
         // Changed the GetAxis to GeatAxisRaw to avoid the added smoothness of movement when a specific key is let go
         Vector3 moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 moveVelocity = moveInput.normalized * moveSpeed;
-        controller.Move(moveVelocity);
+        //controller.Move(moveVelocity);
         #endregion
 
 
@@ -57,7 +57,7 @@ public class Player : LivingEntity
         {
             Vector3 point = ray.GetPoint(rayDistance);
             Debug.DrawLine(ray.origin, point, Color.red);
-            controller.LookAt(point);
+            //controller.LookAt(point);
             //if(crossHair != null){
             //    crossHair.transform.position = point;
             //    crossHair.DetectTargets(ray);

@@ -26,7 +26,7 @@ public class ArrowSpawner : MonoBehaviour
     private void Update()
     {
 
-        Debug.Log("bow is selectd " + _bow.isSelected);
+        //Debug.Log("bow is selectd " + _bow.isSelected);
         if (_bow.isSelected && _arrowNotched == false)
         {
             _arrowNotched = true;

@@ -84,6 +84,7 @@
     <Compile Include="Assets\Shooter\Scripts\Player\AStarNodeCreator.cs" />
     <Compile Include="Assets\TriggerZone.cs" />
     <Compile Include="Assets\Shooter\AudioManager.cs" />
+    <Compile Include="Assets\BowController.cs" />
     <Compile Include="Assets\VFX Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\Shooter\Scripts\_Script_Templates\SocketInventory System\FFOSBodySocketInventory\UltraLowPoly\FireBullet.cs" />
     <Compile Include="Assets\Shooter\Scripts\_Script_Templates\SFXController\SFXController.cs" />
